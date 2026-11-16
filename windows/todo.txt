@@ -1,0 +1,3 @@
+Clean it up:
+	- Input given (CLI)
+	- Make less garbage

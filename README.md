@@ -6,6 +6,6 @@ There is a particularly interesting operation called fast multipoint evaluation,
 
 I wrote big integer, modular arithmetic and polynomial arithmetic classes in C++, and experimented with a Karatsuba (divide and conquer) multiplication algorithm in Python. 
 
-At some point, when I started using Linux more, it occured to me that I should use a library. I used the GNU Multiprecision library (GMP), in particular its C++ wrapper gmpxx. I didn't know about FLINT, so I still implemented polynomials and modular arithmetic manually. I apparently didn't know what Make was either. Future work will be to implement this attack in FLINT, which already has multipoint evaluation implemented. Also, give it an interface.
+At some point, when I started using Linux more, it occured to me that I should use a library. I used the GNU Multiprecision library (GMP), in particular its C++ wrapper gmpxx. I didn't know about FLINT, so I still implemented polynomials and modular arithmetic manually. Future work will be to implement this attack in FLINT, which already has multipoint evaluation implemented. Also, give it an interface.
 
-To install GMP on Ubuntu use `sudo apt install -y libgmp-dev build-essential`
+To install GMP on Ubuntu use `sudo apt install -y libgmp-dev`

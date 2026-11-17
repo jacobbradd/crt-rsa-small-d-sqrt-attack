@@ -34,7 +34,7 @@ int main(int argc, char ** argv){
 				debug_mode = true;
 				break;
 			default:
-				flint_printf("Unknown argument -%c.\n", optarg);
+				flint_printf("Unknown argument -%c.\n", optopt);
 		}
 	}
 	fmpz_t N;
